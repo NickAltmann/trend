@@ -1,0 +1,7 @@
+Description,Exchange,Symbol,PointValue,Currency,Months
+EuroDollar,CME,ED,2.5,USD,"3,6,9,12"
+CAC Index,LIFFE,FCE,10,EUR,"3,6,9,12"
+FTSE 100 Index,LIFFE,Z,10,GBP,"3,6,9,12"
+Gasoil,CME,G,100,USD,
+CrudeOil,CME,CL,100,USD,
+Test,TEST,TEST,100,USD,"3,6,9,12"
