@@ -1,7 +1,52 @@
-Description,Exchange,Symbol,PointValue,Currency,Months
-EuroDollar,CME,ED,2.5,USD,"3,6,9,12"
-CAC Index,LIFFE,FCE,10,EUR,"3,6,9,12"
-FTSE 100 Index,LIFFE,Z,10,GBP,"3,6,9,12"
-Gasoil,CME,G,100,USD,
-CrudeOil,CME,CL,100,USD,
-Test,TEST,TEST,100,USD,"3,6,9,12"
+Description,Exchange,Symbol,PointValue,Currency,Months,TickSize,Start,End,Sector,Notes
+Test,TEST,TEST,100,USD,"3,6,9,12",0.01,1980,,Test,
+Corn,CME,C,5000,USd,"3,5,7,9,12",0.25,1980,,Agricultural,http://www.cmegroup.com/trading/agricultural/grain-and-oilseed/corn_contract_specifications.html
+Cotton,CME,TT,50000,USD,"3,5,7,10,12",0.0001,1980,2011,Agricultural,http://www.cmegroup.com/trading/agricultural/softs/cotton_contract_specifications.html
+Lean hogs,CME,LN,40000,USd,"2,4,5,6,7,8,10,12",0.025,1980,,Agricultural,http://www.cmegroup.com/trading/agricultural/livestock/lean-hogs_contract_specifications.html
+Live cattle,CME,LC,40000,USd,"2,4,6,8,10,12",0.025,1980,,Agricultural,http://www.cmegroup.com/trading/agricultural/livestock/live-cattle_contract_specifications.html
+Lumber,CME,LB,110,USD,"1,3,5,7,9,11",0.1,1980,,Agricultural,http://www.cmegroup.com/trading/agricultural/lumber-and-pulp/random-length-lumber_contract_specifications.html
+Oats,CME,O,5000,USd,"3,5,7,9,12",0.25,1980,,Agricultural,http://www.cmegroup.com/trading/agricultural/grain-and-oilseed/oats_contract_specifications.html
+Rough rice,CME,RR,2000,USD,"1,3,5,7,9,11",0.005,1980,,Agricultural,http://www.cmegroup.com/trading/agricultural/grain-and-oilseed/rough-rice_contract_specifications.html
+Soybeans,CME,S,5000,USd,"1,3,5,7,8,9,11",0.25,1980,,Agricultural,http://www.cmegroup.com/trading/agricultural/grain-and-oilseed/soybean_contract_specifications.html
+Wheat,CME,W,5000,USd,"3,5,7,9,12",0.25,1980,,Agricultural,http://www.cmegroup.com/trading/agricultural/grain-and-oilseed/wheat_contract_specifications.html
+Sugar,,,,,,,,,,
+Copper,CME,HG,25000,USD,,0.0005,1980,2010,Commodities,http://www.cmegroup.com/trading/metals/base/copper_contract_specifications.html
+CrudeOil,CME,CL,1000,USD,,0.01,1983,,Commodities,http://www.cmegroup.com/trading/energy/crude-oil/light-sweet-crude_contract_specifications.html
+Gasoil,CME,G,100,USD,,0.25,2007,2013,Commodities,https://www.theice.com/products/34361119
+Gasoline,,,,,,,,,Commodities,
+Gold,CME,GC,100,USD,"2,4,6,8,10,12",0.1,1980,,Commodities,http://www.cmegroup.com/trading/metals/precious/gold_contract_specifications.html
+Heating oil,CME,HO,42000,USD,,0.0001,1980,,Commodities,https://www.theice.com/products/201
+Natural gas,CME,NG,10000,USD,,0.001,1991,,Commodities,http://www.cmegroup.com/trading/energy/natural-gas/natural-gas_contract_specifications.html?0.47396044152296346=
+Palladium,CME,PA,100,USD,"3,6,9,12",0.05,1980,,Commodities,http://www.cmegroup.com/trading/metals/precious/palladium_contract_specifications.html
+Platinum,CME,PL,50,USD,"1,4,7,10",0.1,1980,,Commodities,http://www.cmegroup.com/trading/metals/precious/platinum_contract_specifications.html
+Silver,CME,SI,5000,USD,"1,3,5,7,9,12",0.005,1980,,Commodities,http://www.cmegroup.com/trading/metals/precious/silver_contract_specifications.html
+AUD/USD,CME,AD,100000,USD,"3,6,9,12",0.0001,1987,,Currencies,
+CAD/USD,CME,CD,100000,USD,"3,6,9,12",0.0001,1980,2014,Currencies,http://www.cmegroup.com/trading/fx/g10/canadian-dollar_contract_specifications.html
+CHF/USD,CME,SF,125000,USD,"3,6,9,12",0.0001,1980,,Currencies,
+EUR/CHF,CME,RF,125000,CHF,"3,6,9,12",,,,Currencies,Very little data
+EUR/GBP,CME,RP,125000,GBP,"3,6,9,12",0.00005,,,Currencies,Could run from 2014. http://www.cmegroup.com/trading/fx/g10/euro-fx-british-pound_contract_specifications.html
+EUR/JPY,CME,RY,125000,JPY,"3,6,9,12",0.01,,,Currencies,Could run from 2014. http://www.cmegroup.com/trading/fx/g10/euro-fx-japanese-yen_contract_specifications.html
+EUR/USD,CME,EC,125000,USD,"3,6,9,12",0.0001,1999,,Currencies,http://www.cmegroup.com/trading/fx/g10/euro-fx_contract_specifications.html
+GBP/USD,CME,BP,62500,USD,"3,6,9,12",0.0001,1980,,Currencies,
+JPY/USD,CME,JY,12.5,USD,"3,6,9,12",0.5,1980,,Currencies,http://www.cmegroup.com/trading/fx/g10/japanese-yen_contract_specifications.html
+NZD/USD,CME,NE,100000,USD,"3,6,9,12",0.0001,2004,,Currencies,
+CAC Index,LIFFE,FCE,10,EUR,"3,6,9,12",0.5,1999,2013,Equity,https://derivatives.euronext.com/en/products/index-futures/FCE-DPAR/contract-specification
+DAX,EUREX,FDAX,25,EUR,"3,6,9,12",0.5,1997,,Equity,http://www.eurexchange.com/exchange-en/products/idx/dax/DAX--Futures/17206
+EuroStoxx 50,,,,,,,,,Equity,
+FTSE 100,LIFFE,Z,10,GBP,"3,6,9,12",0.5,1984,,Equity,https://www.theice.com/products/38716764
+Hang Seng,PXDATA,H5,50,HKD,"3,6,9,12",1,2000,2012,Equity,https://www.hkex.com.hk/eng/prod/drprod/hkifo/fut.htm
+HS China,,,,,,,,,Equity,
+Nasdaq 100,CME,ND,20,USD,"3,6,9,12",0.25,1998,2013,Equity,http://www.cmegroup.com/trading/equity-index/us-index/e-mini-nasdaq-100_contract_specifications.html
+Nikkei 225,CME,NK,500,JPY,"3,6,9,12",5,1991,,Equity,
+Russell 2000,,,,,,,,,Equity,
+S&P 500,CME,SP,50,USD,"3,6,9,12",0.25,1983,,Equity,http://www.cmegroup.com/trading/equity-index/us-index/e-mini-sandp500_contract_specifications.html
+Bund,EUREX,FGBL,1000,EUR,"3,6,9,12",0.01,1999,,Rates,http://www.eurexchange.com/exchange-en/products/int/fix/government-bonds/Euro-Bund-Futures/14770
+Cand Bankers,MX,BAX,2500,CAD,"3,6,9,12",0.005,,,Rates,https://www.m-x.ca/produits_taux_int_bax_en.php
+Euribor,LIFFE,I,2500,EUR,"3,6,9,12",0.005,2000,,Rates,https://www.theice.com/products/38527986/Three-Month-Euribor-Futures
+EuroDollar,CME,ED,2500,USD,"3,6,9,12",0.005,1982,,Rates,http://www.cmegroup.com/trading/interest-rates/stir/eurodollar_contract_specifications.html
+EuroSwiss,LIFFE,S,2500,CHF,"3,6,9,12",0.01,1992,,Rates,https://www.theice.com/products/37650324
+Long gilt,LIFFE,R,1000,GBP,"3,6,9,12",0.01,1991,,Rates,https://www.theice.com/products/37650336/Long-Gilt-Future
+Schatz,EUREX,FGBS,1000,EUR,"3,6,9,12",0.005,1999,,Rates,http://www.eurexchange.com/exchange-en/products/int/fix/government-bonds/Euro-Schatz-Futures/16134
+Short sterling,LIFFE,L,1250,GBP,"3,6,9,12",0.01,1991,,Rates,https://www.theice.com/products/37650330/Three-Month-Sterling-Short-Sterling-Future
+US 10-year,CME,TY,1000,USD,"3,6,9,12",0.015625,1983,,Rates,http://www.cmegroup.com/trading/interest-rates/us-treasury/10-year-us-treasury-note_contract_specifications.html
+US 2-year,CME,TU,2000,USD,"3,6,9,12",0.0078125,2007,,Rates,http://www.cmegroup.com/trading/interest-rates/us-treasury/2-year-us-treasury-note_contract_specifications.html
